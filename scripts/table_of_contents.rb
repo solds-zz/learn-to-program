@@ -1,5 +1,8 @@
 lineWidth = 40
-puts "Table of Contents".center(lineWidth)
-puts "Chapter 1: Numbers".ljust(lineWidth / 2) + "page 1".rjust(lineWidth / 2)
-puts "Chapter 2: Letters".ljust(lineWidth / 2) + "page 72".rjust(lineWidth / 2)
-puts "Chapter 3: Variables".ljust(lineWidth / 2) + "page 118".rjust(lineWidth / 2)
+
+title = "Table of Contents"
+chapters = ["Chapter 1: Numbers", "Chapter 2: Letters", "Chapter 3: Variables"]
+pages = ["page 1", "page 72", "page 118"]
+
+puts title.center(lineWidth)
+chapters.each_with_index { |ch, i| puts ch.ljust(lineWidth / 2) + pages[i].rjust(lineWidth / 2) }

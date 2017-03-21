@@ -1,4 +1,5 @@
 loop do
+  puts "YES, SONNY?"
   print "> "
   input = gets.chomp
   if input == 'BYE'
