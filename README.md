@@ -1,2 +1,2 @@
 # Learn to Program
-The result of completing Chris Pine's *Learn to Program*.
+The result of completing *Learn to Program* by Chris Pine.
